@@ -4,6 +4,7 @@
 ### enhancements
 
 - Add support for loading via AMD and CommonJS module loaders ([#266](https://github.com/fnando/i18n-js/pull/266))
+- Add fallbacks option to `i18n-js.yml`, defaults to `true`
 
 ### bug fixes
 
