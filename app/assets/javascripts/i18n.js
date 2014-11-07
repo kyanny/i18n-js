@@ -222,7 +222,7 @@
   // It detects the `zero`, `one`, and `other` scopes.
   I18n.pluralization["default"] = function(count) {
     switch (count) {
-      case 0: return ["zero", "other"];
+      case 0: return ["zero", "none", "other"];
       case 1: return ["one"];
       default: return ["other"];
     }
